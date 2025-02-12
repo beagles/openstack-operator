@@ -1958,8 +1958,6 @@ spec:
                                       type: object
                                   type: object
                                 type: array
-                            required:
-                            - services
                             type: object
                           passwordSelectors:
                             default:
@@ -2200,8 +2198,6 @@ spec:
                                       type: object
                                   type: object
                                 type: array
-                            required:
-                            - services
                             type: object
                           passwordSelectors:
                             default:
@@ -2430,8 +2426,6 @@ spec:
                                       type: object
                                   type: object
                                 type: array
-                            required:
-                            - services
                             type: object
                           replicas:
                             default: 1
@@ -17084,6 +17078,8 @@ spec:
                     type: object
                   mariadbImage:
                     type: string
+                  netUtilsImage:
+                    type: string
                   neutronAPIImage:
                     type: string
                   novaAPIImage:
@@ -18651,6 +18647,8 @@ spec:
                     type: object
                   mariadbImage:
                     type: string
+                  netUtilsImage:
+                    type: string
                   neutronAPIImage:
                     type: string
                   novaAPIImage:
@@ -18858,6 +18856,8 @@ spec:
                       type: string
                     mariadbImage:
                       type: string
+                    netUtilsImage:
+                      type: string
                     neutronAPIImage:
                       type: string
                     novaAPIImage:
@@ -19039,6 +19039,8 @@ spec:
                       type: string
                     type: object
                   mariadbImage:
+                    type: string
+                  netUtilsImage:
                     type: string
                   neutronAPIImage:
                     type: string
