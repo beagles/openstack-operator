@@ -2,6 +2,8 @@ module github.com/openstack-k8s-operators/openstack-operator
 
 go 1.21
 
+replace github.com/openstack-k8s-operators/designate-operator/api v0.5.1-0.20250205122129-ae40ae1d9504 => github.com/beagles/designate-operator/api v0.0.0-20250212142328-8dce219317c0
+
 require (
 	github.com/cert-manager/cert-manager v1.14.7
 	github.com/go-logr/logr v1.4.2

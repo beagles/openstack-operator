@@ -1,3 +1,5 @@
+github.com/beagles/designate-operator/api v0.0.0-20250212142328-8dce219317c0 h1:hwECPpeOLS+RXLZBRvbHbeC+0TP1dpZaM579YKX66r4=
+github.com/beagles/designate-operator/api v0.0.0-20250212142328-8dce219317c0/go.mod h1:fmQ9cib7c6k2sAsX4rmEHmZezU/2z9A6PuHKM+9degM=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
 github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6rlkpw=
 github.com/cert-manager/cert-manager v1.14.7 h1:C2L59sMGMdSpd8SPx5qfPAL7ejZaNxJBRd24S7Ws5Ek=
@@ -102,8 +104,6 @@ github.com/openstack-k8s-operators/barbican-operator/api v0.5.1-0.20250127073547
 github.com/openstack-k8s-operators/barbican-operator/api v0.5.1-0.20250127073547-cf83ce8088a0/go.mod h1:MP9fcTNnT27ltU5j9t0K6i0F6J+9+5k0o0qNM4vg47g=
 github.com/openstack-k8s-operators/cinder-operator/api v0.5.1-0.20250122131751-fa5a7a53e15d h1:Yhnh/8ERlSuwufK54InF+6/zH8f3vuQzL6Cc/n4SJ/k=
 github.com/openstack-k8s-operators/cinder-operator/api v0.5.1-0.20250122131751-fa5a7a53e15d/go.mod h1:GoZVwi0mFiqivii2K+EBYW0meEv/X8txqqpBRjxDVbc=
-github.com/openstack-k8s-operators/designate-operator/api v0.5.1-0.20250205122129-ae40ae1d9504 h1:aohiThW8PwzZS8bnsO7QOFbsnG6Ws9FcYUQmkIA3heA=
-github.com/openstack-k8s-operators/designate-operator/api v0.5.1-0.20250205122129-ae40ae1d9504/go.mod h1:QuXDT8S2b0ho4YK7BxP2qqUVdRQAP4JnbHIWHq9Dq44=
 github.com/openstack-k8s-operators/glance-operator/api v0.5.1-0.20250126100316-be560a599e2d h1:+IIIuQsLXDKj/c3LJnXd1xUmaqoX90qce3E4XR+8V9Y=
 github.com/openstack-k8s-operators/glance-operator/api v0.5.1-0.20250126100316-be560a599e2d/go.mod h1:I0guyNO00WfDcG20snrCJpTt5MhT1e+ugWfMc7YdDws=
 github.com/openstack-k8s-operators/heat-operator/api v0.5.1-0.20250129204831-17deaa376556 h1:y4BdDTeuRDLwneYQg3N0Ei23/xILbHgCxyPmQtQdwR0=

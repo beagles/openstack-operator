@@ -1910,6 +1910,57 @@ spec:
                             additionalProperties:
                               type: string
                             type: object
+                          override:
+                            properties:
+                              services:
+                                items:
+                                  properties:
+                                    metadata:
+                                      properties:
+                                        annotations:
+                                          additionalProperties:
+                                            type: string
+                                          type: object
+                                        labels:
+                                          additionalProperties:
+                                            type: string
+                                          type: object
+                                      type: object
+                                    spec:
+                                      properties:
+                                        externalName:
+                                          type: string
+                                        externalTrafficPolicy:
+                                          type: string
+                                        internalTrafficPolicy:
+                                          type: string
+                                        ipFamilyPolicy:
+                                          type: string
+                                        loadBalancerClass:
+                                          type: string
+                                        loadBalancerSourceRanges:
+                                          items:
+                                            type: string
+                                          type: array
+                                        sessionAffinity:
+                                          type: string
+                                        sessionAffinityConfig:
+                                          properties:
+                                            clientIP:
+                                              properties:
+                                                timeoutSeconds:
+                                                  format: int32
+                                                  type: integer
+                                              type: object
+                                          type: object
+                                        type:
+                                          type: string
+                                      type: object
+                                  type: object
+                                type: array
+                            required:
+                            - services
+                            type: object
                           passwordSelectors:
                             default:
                               service: DesignatePassword
@@ -2101,6 +2152,57 @@ spec:
                             additionalProperties:
                               type: string
                             type: object
+                          override:
+                            properties:
+                              services:
+                                items:
+                                  properties:
+                                    metadata:
+                                      properties:
+                                        annotations:
+                                          additionalProperties:
+                                            type: string
+                                          type: object
+                                        labels:
+                                          additionalProperties:
+                                            type: string
+                                          type: object
+                                      type: object
+                                    spec:
+                                      properties:
+                                        externalName:
+                                          type: string
+                                        externalTrafficPolicy:
+                                          type: string
+                                        internalTrafficPolicy:
+                                          type: string
+                                        ipFamilyPolicy:
+                                          type: string
+                                        loadBalancerClass:
+                                          type: string
+                                        loadBalancerSourceRanges:
+                                          items:
+                                            type: string
+                                          type: array
+                                        sessionAffinity:
+                                          type: string
+                                        sessionAffinityConfig:
+                                          properties:
+                                            clientIP:
+                                              properties:
+                                                timeoutSeconds:
+                                                  format: int32
+                                                  type: integer
+                                              type: object
+                                          type: object
+                                        type:
+                                          type: string
+                                      type: object
+                                  type: object
+                                type: array
+                            required:
+                            - services
+                            type: object
                           passwordSelectors:
                             default:
                               service: DesignatePassword
@@ -2279,6 +2381,57 @@ spec:
                           nodeSelector:
                             additionalProperties:
                               type: string
+                            type: object
+                          override:
+                            properties:
+                              services:
+                                items:
+                                  properties:
+                                    metadata:
+                                      properties:
+                                        annotations:
+                                          additionalProperties:
+                                            type: string
+                                          type: object
+                                        labels:
+                                          additionalProperties:
+                                            type: string
+                                          type: object
+                                      type: object
+                                    spec:
+                                      properties:
+                                        externalName:
+                                          type: string
+                                        externalTrafficPolicy:
+                                          type: string
+                                        internalTrafficPolicy:
+                                          type: string
+                                        ipFamilyPolicy:
+                                          type: string
+                                        loadBalancerClass:
+                                          type: string
+                                        loadBalancerSourceRanges:
+                                          items:
+                                            type: string
+                                          type: array
+                                        sessionAffinity:
+                                          type: string
+                                        sessionAffinityConfig:
+                                          properties:
+                                            clientIP:
+                                              properties:
+                                                timeoutSeconds:
+                                                  format: int32
+                                                  type: integer
+                                              type: object
+                                          type: object
+                                        type:
+                                          type: string
+                                      type: object
+                                  type: object
+                                type: array
+                            required:
+                            - services
                             type: object
                           replicas:
                             default: 1
